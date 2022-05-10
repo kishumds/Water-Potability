@@ -57,14 +57,14 @@ def main():
 
 
     ph = st.text_input("PH (0-14)")
-    hardness = st.text_input("Hardness (50.0-300.0)")
-    solids = st.text_input("Solids (400.0-60000.0)")
-    chloramines = st.text_input("Chloromines (1.0-13.0)")
-    sulfate = st.text_input("Sulfate (130.0-480.0)")
-    conductivity = st.text_input("Conductivity (200.0-750.0)")
-    organic_carbon = st.text_input("Organic Carbon (2.5-27.0)")
-    trihalomethanes = st.text_input("Trihalomethanes (0.75-120.0)")
-    turbidity = st.text_input("Turbidity (1.50-6.50)")
+    hardness = st.text_input("Hardness (50.0-300.0 mg/L)")
+    solids = st.text_input("Solids (400.0-60000.0 ppm)")
+    chloramines = st.text_input("Chloromines (1.0-13.0 ppm)")
+    sulfate = st.text_input("Sulfate (130.0-480.0 mg/L)")
+    conductivity = st.text_input("Conductivity (200.0-750.0 μS/cm)")
+    organic_carbon = st.text_input("Organic Carbon (2.5-27.0 ppm)")
+    trihalomethanes = st.text_input("Trihalomethanes (0.75-120.0 μg/L)")
+    turbidity = st.text_input("Turbidity (1.50-6.50 NTU)")
 
     col1, col2, col3 , col4, col5 = st.columns(5)
 
