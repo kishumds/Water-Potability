@@ -1,4 +1,5 @@
 # Water-Potability
+![water](https://user-images.githubusercontent.com/88129183/167562839-241406d8-af7a-4d08-b2fe-abf5df4a2104.jpg)
 
 
 ## About Dataset
@@ -32,3 +33,11 @@ The turbidity of water depends on the quantity of solid matter present in the su
 10. <b>Potability:</b><br>
 Indicates if water is safe for human consumption where 1 means Potable and 0 means Not potable.
 
+
+## About Project
+This project predict whether water is potable by using given value. First, I installed libraries which are included in requirement text file, then load dataset which is given here in CSV file. Then performed EDA and balancing data according to target value "Potability". Then split data into train and test dataset and created pipeline for transformer and model building. After all these trained RandomForestClassifier model to train data and it gave around 85% accuracy on unseen data/test data.
+
+## Deployment
+I have deployed given model using StreamLit library, and also hosted it on StreamLit cloud.
+
+You can check it out here: https://share.streamlit.io/kishumds/water-potability/main/water_potability_app.py
